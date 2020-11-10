@@ -1,0 +1,116 @@
+article * { width: 700px; margin: 0 auto;
+}
+
+article > p,
+article > blockquote,
+article > li {
+  margin-top: 28px;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+
+/* article h1, h2, h3, h4, p, ul, ol, blockquote,hr {
+  margin: 0 auto;
+  width: 800px;
+} */
+
+article img {
+  width: 1020px;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: block;
+}
+
+/* hr {
+  margin-top: 0 auto;
+  margin-bottom: 36px;
+} */
+
+article h1 {
+  font-size: 38px;
+  line-height: 45px;
+  margin-top: 80px;
+  margin-bottom: 0 auto;
+  font-weight: bold;
+}
+
+article h2 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 64px;
+  margin-bottom: 28px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, .8);
+}
+
+article h3 {
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 56px;
+  margin-bottom: 52px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, .8);
+}
+
+article h4 {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 52px;
+  margin-bottom: 28px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, .8);
+}
+
+article p {
+  font-size: 22px;
+  line-height: 24px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  font-weight: normal;
+}
+
+article h1 + p {
+  color: rgba(0,0,0,.4);
+  line-height: 34px;
+  margin-bottom: 52px;
+}
+
+article ol {
+  list-style: outside;
+  list-style-type: decimal;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+article ul {
+  list-style: outside;
+  list-style-type: disc;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+article blockquote {
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+ article blockquote::before {
+  content: "";
+  background: black;
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  display: block;
+  left: -17px;
+  top: 0px;
+}
+
+article .last {
+  margin-bottom: 80px;
+}
